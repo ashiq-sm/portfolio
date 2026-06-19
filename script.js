@@ -74,6 +74,8 @@ function handleContact(e) {
 // ===== SMOOTH REVEAL on load =====
 window.addEventListener('load', () => {
   document.body.style.opacity = '1';
+  const yearEl = document.getElementById('copyright-year');
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
 });
 
 // ===== TYPED TAGLINE EFFECT =====

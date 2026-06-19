@@ -1,0 +1,15 @@
+# OS generated
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Build
+node_modules/
+dist/
