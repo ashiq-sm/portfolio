@@ -43,7 +43,7 @@ const observer = new IntersectionObserver((entries) => {
   entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
 }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
 
-document.querySelectorAll('.os-lab-grid, .about-card, .skill-group, .timeline-card, .project-card, .cert-card, .contact-info, .contact-form, .about-bio')
+document.querySelectorAll('.os-lab-grid, .journey-card, .section-header, .about-card, .skill-group, .timeline-card, .project-card, .cert-card, .contact-info, .contact-form, .about-bio')
   .forEach(el => { el.classList.add('fade-in'); observer.observe(el); });
 
 // ===== CONTACT FORM =====
