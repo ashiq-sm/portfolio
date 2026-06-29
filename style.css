@@ -887,9 +887,9 @@ a { color: inherit; text-decoration: none; }
   .timeline-dot { left: -24px; }
   .tl-header { flex-direction: column; }
   .footer-inner { flex-direction: column; text-align: center; }
-  .os-flow { gap: 8px; }
+  .os-flow { gap: 8px; flex-direction: column; align-items: stretch; }
   .os-arrow { display: none; }
-  .os-step { min-width: 120px; }
+  .os-step { min-width: 100%; }
 }
 
 @media (max-width: 480px) {
